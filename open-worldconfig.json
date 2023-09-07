@@ -1,9 +1,9 @@
 [
     {
-        "DisplayName": "",
+        "DisplayName": "TEST",
         "Category": "Server Settings",
         "Description": "",
-        "Keywords": "",
+        "Keywords": "test",
         "FieldName": "",
         "InputType": "text",
         "IsFlagArgument": false,

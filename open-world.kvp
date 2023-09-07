@@ -1,5 +1,5 @@
 App.AdminLoginTransform=None
-App.AdminMethod=SourceRCON
+App.AdminMethod=PinballWizard
 App.AdminPortRef=RemoteAdminPort
 App.ApplicationIPBinding=0.0.0.0
 App.ApplicationReadyMode=Immediate
@@ -67,7 +67,7 @@ Console.UserChatRegex=^$
 Console.UserJoinRegex=^$
 Console.UserLeaveRegex=^$
 Meta.Arch=x86_64
-Meta.Author=Jakub96124 - Made with AMP Config Generator
+Meta.Author=jakub961241 - Made with AMP Config Generator
 Meta.ConfigManifest=open-worldconfig.json
 Meta.ConfigReleaseState=NotSpecified
 Meta.ConfigRoot=open-world.kvp
