@@ -1,5 +1,5 @@
 App.AdminLoginTransform=None
-App.AdminMethod=PinballWizard
+App.AdminMethod=STDIO
 App.AdminPortRef=RemoteAdminPort
 App.ApplicationIPBinding=0.0.0.0
 App.ApplicationReadyMode=Immediate
@@ -18,7 +18,7 @@ App.ExitString=stop
 App.ExitTimeout=30
 App.HasReadableConsole=true
 App.HasWritableConsole=true
-App.LinuxCommandLineArgs=
+App.LinuxCommandLineArgs={{$RemoteAdminPassword}} 
 App.LiveSettingChangeCommandFormat=set {0} "{1}"
 App.MaxUsers=8
 App.MonitorChildProcess=False

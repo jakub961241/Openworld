@@ -2,9 +2,21 @@
     {
         "UpdateStageName": "",
         "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "GithubRelease",
+        "UpdateSource": "Executable",
         "UpdateSourceData": "linux-x64.zip",
         "UpdateSourceArgs": "D12-Dev/OpenWorld",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "UpdateSourceConditionValue": "./OpenWorld",
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceData": "linux-x64.zip",
+        "UpdateSourceArgs": "D12-Dev/OpenWorld/",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
