@@ -2,11 +2,11 @@
     {
         "UpdateStageName": "",
         "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/D12-Dev/OpenWorld/releases/download/v1.0.4/linux-x64.zip",
-        "UpdateSourceTarget": "OpenWorld",
-        "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": true,
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceData": "linux-x64.zip",
+        "UpdateSourceArgs": "D12-Dev/OpenWorld",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "OneShot": false
     }
